@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none; /* Removes the bullets */
+    margin: 0; /*remove browser default settings*/
+    padding: 0; 
+  }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
