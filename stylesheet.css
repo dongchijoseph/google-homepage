@@ -12,3 +12,11 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+
+header nav {
+  height: 48px;
+}
+
+.profile-image {
+  height: auto;
+}
