@@ -54,7 +54,7 @@ header li {
 }
 
 .center-path {
-  height: 160px;
+  height: 120px;
   padding: 20px;
 }
 
@@ -63,19 +63,46 @@ header li {
   padding-top: 6px;
   margin: 0 auto;
   width: auto;
+  position: relative;
 }
 
-.search-area input {
+.search-box {
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
   box-shadow: none;
   border-radius: 24px;
-  height: 44px;
+  height: 42px;
   margin: 0 auto;
-  width: 584px;
+  width: 582px;
 }
 
-.search-area input:hover {
+.search-box:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+.glass-btn {
+  padding: 0 13px 0 14px;
+}
+
+.search-box input {
+  border: none;
+  width: 447px;
+  height: 34px;
+  margin: 4px 0px;
+}
+
+.search-box img {
+  height: 24px;
+  width: 24px;
+  padding: 9px 8px 9px 8px;
+}
+
+.audio-search {
+  padding: 0px 8px;
+}
+
+
+
+
+
