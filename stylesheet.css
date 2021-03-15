@@ -1,5 +1,12 @@
 body {
   font-family: Arial, sans-serif;
+  color: #222;
+  font-size: 14px;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
 }
 
 ul {
@@ -26,7 +33,6 @@ header ul {
 }
 
 header a {
-  text-decoration: none;
   color: #000000DE;
   font-size: 13px;
 }
@@ -46,7 +52,7 @@ header li {
 }
 
 .google-logo {
-  height: 290px;
+  height: 182px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -127,6 +133,23 @@ header li {
   cursor: pointer;
 }
 
+.language {
+  font-size: small;
+  margin-bottom: 24px;
+  text-align: center;
+}
 
+.language-link {
+  display: inline-block;
+  line-height: 28px;
+}
+
+.language-link a {
+  padding: 0 3px;
+}
+
+.language-link a:hover {
+  text-decoration: underline;
+}
 
 
