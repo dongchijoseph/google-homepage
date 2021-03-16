@@ -52,7 +52,7 @@ header li {
 }
 
 .google-logo {
-  height: 182px;
+  height: 290px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -165,4 +165,25 @@ footer {
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
   color: rgba(0,0,0,.54);
+}
+
+.footer-common {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-parent {
+  padding: 0 20px;
+}
+
+footer a {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  color: #70757a;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
